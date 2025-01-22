@@ -1,0 +1,90 @@
+<div class="container" style="width: 350px; text-align: center;">
+  <div mat-dialog-actions style="display: flex; justify-content: flex-end;">
+    <button mat-icon-button (click)="closeDialog()" style="margin: 15px;">
+      <mat-icon style="color: red;">close</mat-icon>
+    </button>
+  </div>
+
+  <div mat-dialog-title>
+    <h3 style="color: blueviolet;">Preencha as Informações</h3>
+  </div>
+
+  <div mat-dialog-content>
+    <form #carForm="ngForm">
+      <mat-form-field>
+        <input 
+          matInput 
+          placeholder="Nome" 
+          [(ngModel)]="data.name" 
+          name="name"
+          #name="ngModel"
+          required 
+          style="border-radius: 5px; height: 15px; width: 175px;">
+        <mat-icon fontIcon="directions_car" matSuffix></mat-icon>
+        <mat-error *ngIf="name.invalid && name.touched">O nome é obrigatório.</mat-error>
+      </mat-form-field>
+      <br>
+
+      <mat-form-field>
+        <input 
+          matInput 
+          placeholder="Descrição" 
+          [(ngModel)]="data.description" 
+          name="description"
+          #description="ngModel"
+          required
+          style="border-radius: 5px; height: 15px; width: 175px;">
+        <mat-icon fontIcon="directions_car" matSuffix></mat-icon>
+        <mat-error *ngIf="description.invalid && description.touched">A descrição é obrigatória.</mat-error>
+      </mat-form-field>
+      <br>
+
+      <mat-form-field>
+        <input 
+          matInput 
+          placeholder="Preço" 
+          [(ngModel)]="data.price" 
+          name="price"
+          #price="ngModel"
+          required 
+          pattern="^[0-9]+(\.[0-9]{1,2})?$"
+          style="border-radius: 5px; height: 15px; width: 175px;">
+        <mat-icon fontIcon="directions_car" matSuffix></mat-icon>
+        <mat-error *ngIf="price.invalid && price.touched">Preço inválido. Use um valor numérico.</mat-error>
+      </mat-form-field>
+      <br>
+
+      <mat-form-field>
+        <input 
+          matInput 
+          placeholder="Categoria" 
+          [(ngModel)]="data.category" 
+          name="category"
+          #category="ngModel"
+          required
+          style="border-radius: 5px; height: 15px; width: 175px;">
+        <mat-icon fontIcon="directions_car" matSuffix></mat-icon>
+        <mat-error *ngIf="category.invalid && category.touched">A categoria é obrigatória.</mat-error>
+      </mat-form-field>
+      <br>
+
+      <mat-form-field>
+        <input 
+          matInput 
+          placeholder="Status" 
+          [(ngModel)]="data.status" 
+          name="status"
+          #status="ngModel"
+          required
+          style="border-radius: 5px; height: 15px; width: 175px;">
+        <mat-icon fontIcon="directions_car" matSuffix></mat-icon>
+        <mat-error *ngIf="status.invalid && status.touched">O status é obrigatório.</mat-error>
+      </mat-form-field>
+    </form>
+  </div>
+
+  <div mat-dialog-actions>
+    <button (click)="addOrEditCar(data)" mat-flat-button mat-dialog-close="data" [disabled]="carForm.invalid">Adicionar</button>
+    <button mat-flat-button mat-dialog-close="data" color="warn">Cancelar</button>
+  </div>
+</div>

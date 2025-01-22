@@ -1,0 +1,36 @@
+.example-container {
+display: flex;
+flex-direction: column;
+max-height: 500px;
+min-width: 300px;
+width: 775px;
+background-color: #eee;
+
+} 
+table {
+  width: 100%;
+  border: 1px solid currentColor;
+  text-align: center;
+
+}
+.mdc-notched-outline {
+  .mdc-notched-outline--no-label{
+    align-items: center;
+    height: 2.5rem;
+  }
+}
+.mat-cell {
+  height: 20px !important;
+}
+
+
+.mat-mdc-form-field-flex {
+  align-items: center;
+  height: 2.5rem;
+}
+
+
+th-mat.sort.header.sorted {
+  color: black;
+}
+

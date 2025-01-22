@@ -1,0 +1,180 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "name": "HB20",
+      "description": "O hatch mais completo da categoria que combina tecnologia e eficiência",
+      "price": 80000,
+      "category": "Hatch",
+      "status": "Disponível"
+    },
+    {
+      "id": 2,
+      "name": "Creta",
+      "description": "Novo Hyundai CRETA. Tão poderoso quanto você.",
+      "price": 200000,
+      "category": "SUV",
+      "status": "Vendido"
+    },
+    {
+      "id": 3,
+      "name": "Onix",
+      "description": "Compacto, moderno e econômico.",
+      "price": 75000,
+      "category": "Hatch",
+      "status": "Disponível"
+    },
+    {
+      "id": 4,
+      "name": "Trailblazer",
+      "description": "SUV robusto com alta performance e conforto.",
+      "price": 350000,
+      "category": "SUV",
+      "status": "Reservado"
+    },
+    {
+      "id": 5,
+      "name": "Civic",
+      "description": "Sedan sofisticado e potente.",
+      "price": 180000,
+      "category": "Sedan",
+      "status": "Vendido"
+    },
+    {
+      "id": 6,
+      "name": "HR-V",
+      "description": "SUV compacto com design elegante.",
+      "price": 130000,
+      "category": "SUV",
+      "status": "Disponível"
+    },
+    {
+      "id": 7,
+      "name": "Gol",
+      "description": "Clássico hatch econômico e confiável.",
+      "price": 60000,
+      "category": "Hatch",
+      "status": "Vendido"
+    },
+    {
+      "id": 8,
+      "name": "Tiguan",
+      "description": "SUV premium com tecnologia avançada.",
+      "price": 250000,
+      "category": "SUV",
+      "status": "Reservado"
+    },
+    {
+      "id": 9,
+      "name": "Corolla",
+      "description": "O sedan mais vendido do mundo.",
+      "price": 150000,
+      "category": "Sedan",
+      "status": "Disponível"
+    },
+    {
+      "id": 10,
+      "name": "Compass",
+      "description": "SUV médio com estilo e robustez.",
+      "price": 170000,
+      "category": "SUV",
+      "status": "Vendido"
+    },
+    {
+      "id": 11,
+      "name": "Polo",
+      "description": "Compacto com ótimo custo-benefício.",
+      "price": 70000,
+      "category": "Hatch",
+      "status": "Disponível"
+    },
+    {
+      "id": 12,
+      "name": "Spin",
+      "description": "Perfeito para a família com amplo espaço interno.",
+      "price": 100000,
+      "category": "Minivan",
+      "status": "Disponível"
+    },
+    {
+      "id": 13,
+      "name": "EcoSport",
+      "description": "SUV compacto e versátil para o dia a dia.",
+      "price": 120000,
+      "category": "SUV",
+      "status": "Reservado"
+    },
+    {
+      "id": 14,
+      "name": "Fiesta",
+      "description": "Hatch dinâmico e confortável.",
+      "price": 65000,
+      "category": "Hatch",
+      "status": "Vendido"
+    },
+    {
+      "id": 15,
+      "name": "Duster",
+      "description": "SUV com design robusto e acessível.",
+      "price": 110000,
+      "category": "SUV",
+      "status": "Disponível"
+    },
+    {
+      "id": 16,
+      "name": "Hilux",
+      "description": "Caminhonete potente e confiável.",
+      "price": 300000,
+      "category": "Caminhonete",
+      "status": "Reservado"
+    },
+    {
+      "id": 17,
+      "name": "Kwid",
+      "description": "O subcompacto mais econômico da categoria.",
+      "price": 55000,
+      "category": "Hatch",
+      "status": "Disponível"
+    },
+    {
+      "id": 18,
+      "name": "Ranger",
+      "description": "Caminhonete robusta com tecnologia moderna.",
+      "price": 250000,
+      "category": "Caminhonete",
+      "status": "Vendido"
+    },
+    {
+      "id": 19,
+      "name": "Sandero",
+      "description": "Hatch espaçoso e econômico.",
+      "price": 60000,
+      "category": "Hatch",
+      "status": "Reservado"
+    },
+    {
+      "id": 20,
+      "name": "T-Cross",
+      "description": "SUV compacto com conectividade e estilo.",
+      "price": 140000,
+      "category": "SUV",
+      "status": "Disponível"
+    },
+    {
+      "id": 21,
+      "name": "Carro Teste",
+      "description": "teste",
+      "price": "54354",
+      "category": "fdfghf",
+      "status": "fdbdf"
+    },
+    {
+      "id": 22,
+      "name": "fdgfdg",
+      "description": "fgfd",
+      "price": "43543",
+      "category": "fdbgdf",
+      "status": "fdgfd"
+    }
+  ]
+}
